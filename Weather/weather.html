@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Layout Master</title>
+   <link rel="stylesheet" type="text/css" href="./weather.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav class="zone  sticky" id="heading">
+      <p>Geosearch</p>  
+    </nav>
+  
+    <div class="container"> 
+      <img class="cover" src="./img/undraw_weather_app_i5sm (1).svg">
+      <div class=" grid-wrapper">
+        <h2 id="check">Weather Check</h2>
+        <form id="city-form">
+          <p id="city-name">Enter city name here</p>
+          <input id="city" type="text" placeholder="city name..." required>
+          <br>
+          <button type="submit" class="btn btn-sucess">Check Weather</button>
+        </form>
+
+        <div class="row3">
+          <p id="report-text"></p>       
+          <h3 id="weather-report" class="col-sm-8 sm-2 text-center"></h3><br>      
+        </div> 
+      </div>
+    </div>
+    <footer class="footer">Developed by Risux
+     <br>
+     <a href="https://github.com/tech-doctor"><img id="github" src="img/github-logo.png"></a><br>
+     copywright 2020
+    </footer>
+    <script src="weather.js"></script>
+  </body>
+</html>

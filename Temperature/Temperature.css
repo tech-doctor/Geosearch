@@ -1,0 +1,164 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+.zone {
+    /*padding:30px 50px;*/
+    cursor:pointer;
+    color: black;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+
+    }
+    .cover{
+        margin-left: 0;
+    }
+}
+
+
+#heading{
+    text-align: center;
+}
+/***********************************************************************
+ *  SECTION A
+ **********************************************************************/
+ .container {
+    height: 1100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cover {
+    width: 10rem;
+}
+
+#convert{
+    background-color: white;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 4px;
+    color: #4979a8;
+}
+
+#convert:hover{
+    background-color: #4979a8;
+    color: white
+}
+/***********************************************************************
+ *  SECTION B
+ **********************************************************************/
+.grid-wrapper {
+    text-align: center;
+    
+}
+
+#check{
+    color: #255686;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+#city-name{
+    font-family: Arial;
+    font-size: 20px;
+}
+#city{
+    padding: 10px;
+    border-radius:6px;
+    margin-bottom: 10px;
+}
+#city::placeholder{
+font-size: 15px;
+}
+.btn{
+    padding: 7px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+}
+.btn:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+#value-report {
+    color: #255686;
+    
+}
+
+a{
+    text-decoration: none;
+    color:  #255686;;
+}
+
+a p{
+    color: black;
+}
+
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+
+ .footer {
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+
+}
+
+#github{
+    width: 3rem;
+}
+
+
+
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue {
+    background: #7abcff; /* Old browsers */
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
+

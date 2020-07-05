@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Layout Master</title>
+   <link rel="stylesheet" type="text/css" href="./map.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav class="zone" id="heading">
+     <p>GEOSEARCH</p>
+    </nav>
+    <div class="content">
+      <h1>View Google Map</h1>
+      <div class="enter">
+        <input id="pac-input" class="controls" type="text" placeholder="Search box...">
+      </div>
+    </div>
+    <div id="map"></div><br>
+     <footer class="footer">Developed by Risux
+      <br>
+      <a href="https://github.com/tech-doctor"><img id="github" src="img/github-logo.png"></a><br>
+      copywright 2020
+     </footer>
+    </div>
+
+
+      <script src="map.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIoT3wEQz1O36uz-NVe9NWk0vZztHG5TA&libraries=places&callback=initAutocomplete"
+         async defer></script>
+  </body>
+</html>

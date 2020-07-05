@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout Master</title>
+  <link rel="stylesheet" type="text/css" href="./Geosearch.css">
+  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <div class="heading">
+    
+    <nav id="nav-bar"class="zone blue sticky">
+        <ul class="main-nav"> 
+          <li class="push"><a href="Weather/weather.html"><i class="fas fa-cloud"></i>WEATHER</a></li>
+          <li class="push"><a href="Map/map.html"><i class="fas fa-map-marker-alt"></i>MAP</a></li>
+          <li class="push"><a href="Temperature/Temperature.html"><i class="fas fa-thermometer-half"></i>TEMPERATURE</a></li>
+          <i  id="yes"class="fa fa-bars"></i>
+        </ul>
+    </nav> 
+  </div>
+</head>
+<body>
+  
+  <div id="side-menu" class=" zone side-nav blue">
+    <a href="#" id="close-menu"class="btn-close">&times;</a>
+    <a id="side" href= "Weather/weather.html"><i class="fa fa-cloud"></i>WEATHER</a>
+    <a id="side" href= "Map/map.html"><i class="fas fa-map-marker-alt"></i>MAP</a>
+    <a id="side" href= "Temperature/Temperature.html"><i class="fas fa-thermometer-half"></i>TEMPERATURE</a>
+  </div>
+  <div class="container ">
+    <div class="content">
+      <h2>GEOSEARCH <br> LANDING PAGE</h2>
+      <p>MIllions of current weather<br>check and maps are delivered here</p>
+      <button id="start"> <a href="#page">Get Started</a></button>
+    </div>
+    <img class="cover" src="./img/undraw_mobile_testing_reah.png">
+  </div>
+
+  
+  <div class="flex-wrapper" id="page">
+    <h2 id="use">How to Use</h2>
+    <ul>
+      <li class="list"> Check any of the list(Weather, Map, Temperature) @ thenavigation bar above</li>
+      <li class="list"> Insert the  city name of interest</li>
+      <li  class="list"> Click on the button to deliver the information needed</li>
+    </ul>
+  </div>
+
+  <div class="flex-wrapper-2">
+    <img class="users" src="./img/undraw_Group_chat_unwm.svg">
+    <h2 id="about">Geosearch is tool that enable users to <br>
+     search for places and extract information<br>
+     such as map and local weather conditions</h2>  
+  </div>
+  <footer class="footer">Developed by Risux <br>
+     <a href="https://github.com/tech-doctor"><img id="github" src="github-logo.png"></a><br>
+     copywright 2020
+  </footer>
+ 
+
+ <script src="Geosearch.js"></script>
+</body>
+</html>
