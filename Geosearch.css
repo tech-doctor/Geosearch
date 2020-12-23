@@ -57,6 +57,9 @@ body {
 	opacity:1;
 	transition-duration: 0.2s;
 }
+.geosearch{
+	margin-left: 10px;
+}
 
 #side-menu a{
 	padding: 10px 10px 10px 10px;
@@ -284,7 +287,6 @@ p{
 	}
 	
 }
-
 
 /***********************************************************************
 *  Footer
