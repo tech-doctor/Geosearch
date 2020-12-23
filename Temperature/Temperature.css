@@ -142,6 +142,15 @@ a p{
 
 }
 
+.footer a{
+    color: rgb(172, 172, 172);
+}
+
+.footer a:hover{
+    color: rgb(240, 240, 240);
+    text-decoration: underline;
+}
+
 #github{
     width: 3rem;
 }

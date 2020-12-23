@@ -9,6 +9,12 @@
   transition: all 0.3s linear;
 }
 
+.zone a{
+  color: black;
+  text-decoration: none;
+  font-family: Arial;
+}
+
 .zone:hover {
   -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
   -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
@@ -88,10 +94,19 @@
         font-size: 15px;
         font-weight: 300;
         margin-left: 12px;
-        padding: 0 11px 0 13px;
+        padding: 0.2em 1em;
         text-overflow: ellipsis;
-        width: 400px;
+        outline: none;
+        width: 40%;
       }
+      @media(max-width:800px){
+        #pac-input {
+          width: 70%;
+        }
+
+      }
+
+
 
       #pac-input:focus {
         border-color: #4d90fe;
@@ -119,6 +134,16 @@
         font-size: 15px;
     
     }
+
+    .footer a{
+      color: rgb(172, 172, 172);
+  }
+  
+  .footer a:hover{
+      color: rgb(240, 240, 240);
+      text-decoration: underline;
+  }
+  
 
     #github {
       width: 3rem;
