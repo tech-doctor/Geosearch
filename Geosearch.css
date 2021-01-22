@@ -157,7 +157,6 @@ width: 100%;
 *  FIRST SECTION
 **********************************************************************/
 .container {
-	
 	height: 900px; 
 	display: flex;
 	align-items: center;
@@ -172,15 +171,14 @@ width: 100%;
 }
 
 #start{
-	background-color: rgb(156, 70, 70);
+	background-color: rgb(168, 65, 65);
 	width: 120px;
 	padding: 12px;
 	border-radius: 10px;
-	font-size: 18px;
+	font-size: 17px;
 	font-family: Arial;
 	box-shadow: black;
-	
-	
+	outline: none;	
 }
 
 #start:hover{
@@ -312,6 +310,36 @@ p{
 
 #github{
 	width: 3rem;
+}
+
+@media(min-width:1200px){
+	.container{
+		width: 100%;
+		justify-content: space-between;
+		height: 800px;
+	}
+	.container .content{
+		width: 40%;	
+		padding-left: 7em;
+	}
+	 h2{
+		font-size: 50px;
+	}
+	p{
+		font-size: 30px;
+		position: relative;
+		top: -10px;
+	}
+	#start{
+		
+		width: 140px;
+	}
+	.container .image{
+		width: 40%;
+	}
+	.cover{
+		width: 28rem;
+	}
 }
 
 /***********************************************************************
