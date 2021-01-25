@@ -7,3 +7,5 @@ Geosearch is a web app that  allows users to get information such as local weath
 * HTML5
 * CSS3
 * Javascript(Vanillajs)
+
+##
