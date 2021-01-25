@@ -12,7 +12,7 @@ Geosearch is a web app that  allow users to get information such as local weathe
 A completed capstone project at [DevCtraining with Andela](https://devctraining.andela.com)
 
 ### Image: 
-
+![image](img/asset.png)    ![image](img/asset2.png)
 
 ### live preview:  
 https://personalgeosearch.netlify.app
