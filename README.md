@@ -1,7 +1,7 @@
 # Geosearch
 
 ### Description:
-Geosearch is a web app that  allows users to get information such as local weather condition and temperature of places searched by the user. Users also have the option to make  interconversion of temperature between Celsius and Fahrenheit.
+Geosearch is a web app that  allow users to get information such as local weather condition and temperature of places searched. Users also have the option to make  interconversion of temperature between Celsius and Fahrenheit.
 
 ### Technology stack:
 * HTML5
@@ -9,7 +9,7 @@ Geosearch is a web app that  allows users to get information such as local weath
 * Javascript(Vanillajs)
 
 ### Status:
-My completed capstone project at [DevCtraining with Andela](https://devctraining.andela.com)
+A completed capstone project at [DevCtraining with Andela](https://devctraining.andela.com)
 
 ### Image: 
 ![image](img/undraw.png)
@@ -25,8 +25,9 @@ https://personalgeosearch.netlify.app
 
 ### Reqirement & Resources for development: 
  * Any IDE (VSCode, Bracket, Atom, Sublime e.t.c)
- * Intermediate knowledge in HTML, CSS and Javascript
+ * Basic knowledge in HTML, CSS and Javascript
  * Knowledge in fetching and displaying data from a remote API 
  #### API USED: 
-    [Openweathermap API](https://openweathermap.org/api)
+ [Openweathermap API](https://openweathermap.org/api)
 
+    
