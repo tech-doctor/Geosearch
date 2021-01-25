@@ -8,16 +8,17 @@ Geosearch is a web app that  allows users to get information such as local weath
 * CSS3
 * Javascript(Vanillajs)
 
-## Status:
+### Status:
 My completed capstone project at [DevCtraining with Andela](https://devctraining.andela.com)
 
 ## Image: 
+![image](img/undraw.png)
 
-## live preview:  
-(https://personalgeosearch.netlify.app/)
+### live preview:  
+https://personalgeosearch.netlify.app
 
-## Setup:
-* Copy the repository link 
-* On your commandline/terminal, change the current working directory to the location where you want the cloned directory.
-* Type ``` git clone https://github.com/tech-doctor/Geosearch.git ```.(make sure the link is the link to the repository)
-* press enter to create your local clone
+### Setup:
+1. Copy the repository link 
+2. On your commandline/terminal, change the current working directory to the location where you want the cloned directory.
+3. Type ``` git clone https://github.com/tech-doctor/Geosearch.git ```.(make sure the link is the link to the repository)
+4. press enter to create your local clone.
