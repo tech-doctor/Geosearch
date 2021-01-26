@@ -13,7 +13,7 @@ A completed capstone project at [DevCtraining with Andela](https://devctraining.
 
 ### Image: 
 ![image](img/asset.png| width = 100)    ![image](img/asset2.png)
-<img src="img/asset.png" width=50" height="50">
+<img src="img/asset.png" width="50%" height="50%">
 
 ### live preview:  
 https://personalgeosearch.netlify.app
