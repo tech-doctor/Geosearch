@@ -21,7 +21,7 @@ https://personalgeosearch.netlify.app
 ### Setup:
 1. Copy the repository link 
 2. On your commandline/terminal, change the current working directory to the location where you want the cloned directory.
-3. Type ``` git clone https://github.com/USER_NAME/Geosearch.git ```.(make sure the link is the link to the repository)
+3. Type ``` git clone https://github.com/USER_NAME/REPOSITORY_NAME ```.(make sure the link is the link to the repository)
 4. press enter to create your local clone.
 
 ### Reqirement & Resources for development: 
